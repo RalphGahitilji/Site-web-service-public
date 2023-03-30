@@ -169,11 +169,22 @@ input[type=recherche] {
     justify-items: center;
     justify-content: center;
 }
+.boxes :hover{
+    background: #002a40;
+    
+}
 .boxes{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     justify-content: space-around;
+}
+.boxes1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    justify-content: space-around;
+
 }
 .pack{
     margin-left: 140px;
@@ -181,8 +192,19 @@ input[type=recherche] {
 .pr{
     margin-left: 140px;
 }
+.titre-boxe small{
+    font-size: 14px;
+}
 .pi{
     text-align: center;
+    padding-left: 20px;
+}
+.pir{
+    padding-left: 40px;
+}
+.key{
+
+    image-orientation:revert; 
 }
 .titre-boxe{ 
     display: flex;
@@ -205,26 +227,34 @@ input[type=recherche] {
 }
 .d00{
     background-color: #f5f5f5 !important;
-    display: flex;
-    flex-direction: row;
 }
-.titre-d00{
+.d00 h3{
+    font-weight: lighter!important;
     text-align: center!important;
     font-size: 30px;
     display: block;
+    margin-left: 80px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 
 }
-.titre-d00 small{
-    text-align: center!important;
+.d00 h3 small{
     font-size: 18px!important;
-
 }
 
-
+.voir1{
+    width: 260px;
+    background-color: #002a40;
+    color: white;
+    height: 40px;
+    display: flex;
+    margin-left: 550px;
+    flex-direction: row;
+    justify-items:center;
+    justify-content:space-around;
+}
 
 footer
 {
